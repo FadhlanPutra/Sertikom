@@ -1,0 +1,366 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 1024px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(optional/ryan-concepcion-w_z0RJCSBiE-unsplash.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+}
+.foody{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 400px;
+}
+.awal{
+    width: 100%;
+    margin: auto;
+}
+.navigasi2 ul li{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+}
+.navigasi2 a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+.navigasi{
+    display: flex;
+    justify-content: space-around;
+    padding:20px 0px 20px 0px;
+}
+.yourfav{
+    color:white;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+    font-size: 50px;
+}
+.ats-order{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 0px 200px 0px 200px;
+    font-family: 'Roboto', sans-serif;
+}
+.text-order{
+    color: white;
+    text-decoration: none;
+}
+.order{
+    cursor: pointer;
+
+
+    width: 190px;
+    height: 60px;
+    margin: auto;
+    margin-top: 120px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid orange;
+    border-radius: 30px;
+}
+.order p{
+    text-align: center;
+}
+
+/* HERO SELESAI */
+/* UNDER */
+.under{
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.bwh-under{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 1000;
+}
+
+.about{
+    background-color: white;
+}
+.about p{
+    color: grey;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 450px 80px 450px;
+    font-family: 'Roboto', sans-serif;
+}
+/* image bawah about */
+.flex-img{
+    width: 1200px;
+    margin: auto;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flex-img .img{
+    width: 396px;
+    height: 464px;
+    font-size:50px;
+    margin: 10px;
+}
+.flex-img .img2{
+    width: 292px;
+    height: 220px;
+    font-size:50px;
+    margin-bottom: 43px;
+    margin: 10px;
+}
+.flex-img .img3{
+    width: 292px;
+    height: 220px;
+    font-size:50px;
+    margin: 10px;
+}
+.flex-img img{
+    border-radius: 30px;
+}
+
+/* How It Work */
+
+.work p{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 500px 0px 500px;
+    font-family: 'Roboto', sans-serif;
+}
+.flex-work{
+    width: 1230px;
+    margin: auto;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flex-work .work1{
+    width: 312px;
+    height: 330px;
+    background-color: #edeaea;
+    border-radius: 30px;
+    margin: 10px 0px 10px 0px;
+}
+.flex-work .work2{
+    width: 312px;
+    height: 330px;
+    background-color: #edeaea;
+    border-radius: 30px;
+    margin: 10px 146px 10px 146px;
+}
+.round i{
+    padding:25px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: orange;
+    margin:0px 0px 0px 120px;
+}
+.flex-work h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.flex-work p{
+    text-align: center;
+    margin: 50px 30px 0px 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* MENU */
+.bwh-img h3{
+    margin-left: 10px;
+}
+.menu{
+    width: 100%;
+    height: 1545px;
+    background-color: #d9d9d9;
+}
+.menu p{
+    text-align: center;
+    margin: 0px 520px 70px 520px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.flex-menu h4{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 5px 0px 5px;
+}
+.flex-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-menu img{
+    width: 396px;
+    height: 300px;
+    margin: auto;
+    border-radius: 30px 30px 0px 0px;
+    object-fit: cover;
+}
+.menu .bwh-img{
+    width: 396px;
+    height: 216px;
+    margin: 0px 52.5px 100px 52.5px;
+    background-color: white;
+    border-radius: 0px 0px 30px 30px;
+}
+.menu .bwh-img i{
+    margin: 0px 2px 0px 2px;
+}
+.harga-menu h3{
+    color: #ff7a00;
+}
+
+/* contact */
+
+.contact{
+    padding-top: 50px;
+    width: auto;
+    height:858px;
+    background-color: #d9d9d9;
+}
+.flex-contact{
+    width: 1500px;
+    height: 400px;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box_contact{
+    width: 397px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.box_contact h4{
+    text-align: center;
+    font-size: 27px;
+}
+.box_contact p{
+    text-align: center;
+    font-size: 27px;
+    color:white;
+    padding-top: 23px;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+
+    border-radius: 30px;
+    width: 252px;
+    height: 73px;
+    background-color: #ff7a00;
+}
+.box_contact img{
+    margin: 0px 160px 0px 165px;
+}
+
+/* FOOTER */
+
+.footer{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 500px;
+    background-color: #de5305;
+    color: white;
+    margin: auto;
+    font-size: 14px;
+}
+.footer .gft{
+    background-color: #de5305;
+    display: grid;
+    margin: auto;
+    width: 100%;
+    height: 390px;
+    padding-top: 80px;
+
+    grid-template-areas: "footer1 footer2 footer3 footer4";
+    gap: 20px;
+}
+.footer-about, .footer-navigation, .partners, .navigation{
+    line-height: 30px;
+}
+.footer .footer-about{
+    margin-right: 160px;
+    grid-area: footer1;
+    margin-left: 105px;
+}
+.footer-navigation a{
+    grid-area: footer2;
+    margin-right: 60px;
+    text-decoration: none;
+    color: #d6d6d6;
+}
+.footer .partners{
+    grid-area: footer3;
+    margin-right: 160px;
+}
+.footer .navigation{
+    grid-area: footer4;
+    margin-right: 60px;
+    padding-right: 150px;
+}
+.footer p{
+    color: white;
+    line-height: 20px;
+}
+.footer li{
+    list-style-type: none;
+    color: #d6d6d6;
+    cursor: pointer;
+}
+.footer h4{
+    letter-spacing: .1rem;
+}
+.footer .about p{
+    margin-bottom: 10px;
+}
+.footer .copyright{
+    text-align: center;
+}
+.connect{
+    background-color: #de5305;
+    border: none;
+    border-radius: 10%;
+
+    color: white;
+    padding: 10px 12px;
+
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.connect:hover{
+    background-color: white;
+    border: none;
+    border-radius: 10%;
+    
+    color: black;
+    padding: 12px 14px;
+    font-size: 18px;
+}
+.copyright span{
+    color: grey;
+    cursor: pointer;
+}
+.under-footer{
+    margin-bottom: 30px;
+}
